@@ -1,0 +1,16 @@
+body{
+  font-family: sans-serif;
+  color-scheme: light dark;
+  color: bisque;
+  background-color: rgba(107, 171, 171, 0.793);
+  margin: 0%;
+  display: flex;
+  padding: 20px;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
