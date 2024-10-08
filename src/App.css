@@ -14,3 +14,28 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+.btn-container{
+  display: flex;
+  gap: 10px;
+}
+
+button{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 2px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: blueviolet;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: aquamarine;
+}
+
+button:focus, button:focus-visible{
+  outline: 4px auto -webkit-focus-ring-color;
+}
