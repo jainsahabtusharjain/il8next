@@ -33,15 +33,15 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                     line2: "यह दूसरी पंक्ति है"
                 }
             }
-        }
-    },
-    ar:{
-        translation:{
-            greetings: "مرحبا، مرحبا",
-            description: {
-                line1: "مرحبا بالجميع، نحن نعمل على مشروع وهمي",
-                line2: "هذا هو السطر الثاني"
+        },
+        ar:{
+            translation:{
+                greetings: "مرحبا، مرحبا",
+                description: {
+                    line1: "مرحبا بالجميع، نحن نعمل على مشروع وهمي",
+                    line2: "هذا هو السطر الثاني"
+                }
             }
-        }
+        },
     }
 })
