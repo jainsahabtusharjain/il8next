@@ -25,7 +25,6 @@ const languageselector = () => {
   return (
     <div className='btn-container'>
         {languages.map((lng) => {
-            // console.log(lng)
             return <button className={lng.code === i18n.language ? "selected" : ""} key={lng.code} onClick={()=> changeLanguage(lng.code)}>{lng.lang}</button>
         })}       
     </div>
