@@ -5,8 +5,8 @@ import './App.css'
 
 function App() {
   const {t} = useTranslation()
+  console.log(t('description'))
   const {line1, line2} =  t('description')
-  // console.log(description)
   return(
     <div className='container'>
       <Languageselector />
